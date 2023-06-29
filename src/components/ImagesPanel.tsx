@@ -6,19 +6,19 @@ import micOutline from "../assets/mic-outline.svg";
 
 const ImagesPanel = () => {
 	return (
-		<div className="relative">
+		<div className="relative h-fit min-w-[40%]">
 			<img
 				src={ellipsesImg}
-				className="mt-[3.75rem] translate-x-[3.13rem]"
+				className="mt-[3.75rem] translate-x-[9.1%]"
 			/>
 			<img src={backgroundImg} className="absolute top-0 w-full" />
 			<img
 				src={foregroundImg}
-				className="absolute right-[3.31rem] top-[5.62rem]"
+				className="absolute left-[-9.1%] top-[24.3%]"
 			/>
 			<img
 				src={podcastOutline}
-				className="absolute right-[-5.755rem] top-[9.5rem] h-[4rem] w-[4rem] rotate-[-16.831deg] rounded bg-white px-[0.44rem] py-[0.44rem] shadow-icon"
+				className="absolute right-[-16.74%] top-[41.08%] h-[4rem] w-[4rem] rotate-[-16.831deg] rounded bg-white px-[0.44rem] py-[0.44rem] shadow-icon"
 			/>
 			<img
 				src={micOutline}

@@ -11,6 +11,14 @@
 	box-sizing: border-box;
 }
 
+body {
+	width: 100vw;
+}
+
+#root {
+	width: 100%;
+}
+
 button,
 a {
 	font: inherit;

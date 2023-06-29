@@ -4,7 +4,7 @@ import Content from "./components/Content";
 
 function App() {
 	return (
-		<div>
+		<div className="relative w-full">
 			<img className="absolute z-[-1] w-full" src={headerImg} />
 			<Navbar />
 			<Content />

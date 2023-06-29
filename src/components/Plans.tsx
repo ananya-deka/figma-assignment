@@ -22,13 +22,15 @@ const Plans = () => {
 							Lorem Ipsum is simply dummy text of the printing and
 							typesetting
 						</p>
-						<div>
-							<span className="font-inter text-[2rem] font-bold text-purple">
+						<div
+							className={`${
+								index === 1 ? "text-white" : "text-purple"
+							} flex items-center gap-[1.19rem]`}
+						>
+							<span className="font-inter text-[2rem] font-bold">
 								$ 54
 							</span>
-							<span className="text-[0.875rem] text-purple">
-								/month
-							</span>
+							<span className="text-[0.875rem]">/month</span>
 						</div>
 						<ul className="text-[0.75rem] font-bold">
 							<li>Free access to video class</li>
